@@ -1,0 +1,21 @@
+// Motivational JavaScript Code
+function motivateMe() {
+  const quotes = [
+    "🚀 Your code is changing the world!",
+    "💡 Every bug you fix makes you a better developer.",
+    "🔥 You're one step closer to your goals!",
+    "🌟 Believe in your code, and others will too.",
+    "👨‍💻 Keep coding. The world needs your ideas!",
+    "🎯 Success is just a function of persistence.",
+    "⚡ Debugging is where the real learning happens.",
+    "🚧 Obstacles are just opportunities in disguise.",
+    "🌈 Your next breakthrough is just a commit away!",
+    "🎉 Celebrate every small victory!"
+  ];
+  
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  console.log(`%c${randomQuote}`, "color: #4CAF50; font-size: 16px; font-weight: bold;");
+}
+
+// Run this daily for a coding motivation boost!
+motivateMe();
